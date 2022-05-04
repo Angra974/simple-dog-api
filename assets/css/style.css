@@ -1,0 +1,108 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+}
+
+footer {
+}
+
+main,
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  flex-direction: column;
+}
+
+h1 {
+  padding: 5px;
+}
+ul {
+  max-width: 600px;
+  flex-wrap: wrap;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 10px;
+}
+
+li img {
+  width: 100%;
+  height: 100%;
+}
+
+#choosen {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+article {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#random {
+  margin: 0 auto;
+  display: inherit;
+}
+li {
+  width: 150px;
+  height: 150px;
+  border-color: #000;
+  margin: 2px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+input {
+  margin: 0 0 0 5px;
+}
