@@ -1,6 +1,9 @@
-This favicon was generated using the following graphics from Twitter Twemoji:
+# 100devs Bootcamp
 
-- Graphics Title: 2b50.svg
-- Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
-- Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/2b50.svg
-- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+## Simple use of Dog.ceo Api
+
+![Dog Api](angra974.github.io/simple-dog-api/assets/images/screen.png)
+
+The goal was to understand how an api work.
+So the application fetch image from api url, populate a list with the result.
+In the same time, a datalist is populate so we can search by breed too.
